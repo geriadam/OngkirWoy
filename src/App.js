@@ -1,28 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SearchForm from './SearchForm';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    render() {
+        return (
+        	<div>
+        		<div className="col-sm-12 col-md-12 col-lg-12">
+	        		<div className="card card-primary">
+	        			<div className="card-body">
+	        				<h1 className="card-title">
+	        					Selamat datang
+	        				</h1>
+							<h2 className="card-text">di OngkirWoy
+									<i className="fa fa-truck"></i>
+							</h2>
+	        			</div>
+	        		</div>
+	        	</div>
+	        	<br />
+	            <div className="container">
+            		<div className="row">
+	                	<SearchForm />
+	                </div>
+	            </div>
+        	</div>
+        );
+    }
 }
 
 export default App;
