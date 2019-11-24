@@ -19,7 +19,7 @@ Check shipping rates with API from RajaOngkir
 Plase visit [RajaOngkir.com](https://rajaongkir.com) and register new account
 
 ## How To Run?
-Plase visit `http://localhost/ongkirkuy/site`
+Plase visit `http://localhost/ongkirwoy/site`
 
 ## Screenshoot
 
